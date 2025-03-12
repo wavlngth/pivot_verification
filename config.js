@@ -1,0 +1,12 @@
+require('dotenv').config();
+
+module.exports = {
+    ROBLOX_CLIENT_ID: process.env.ROBLOX_CLIENT_ID,
+    ROBLOX_CLIENT_SECRET: process.env.ROBLOX_CLIENT_SECRET,
+    REDIRECT_URI: process.env.REDIRECT_URI,
+    DISCORD_GUILD_ID: process.env.DISCORD_GUILD_ID,
+    VERIFIED_ROLE_ID: process.env.VERIFIED_ROLE_ID,
+    VERIFICATION_CHANNEL_ID: process.env.VERIFICATION_CHANNEL_ID,
+    REQUIRED_GROUP_ID: process.env.REQUIRED_GROUP_ID,
+    REQUIRED_GROUP_RANK: process.env.REQUIRED_GROUP_RANK
+};
